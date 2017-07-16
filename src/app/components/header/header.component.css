@@ -1,0 +1,55 @@
+  .ui.menu {
+    padding: 0 2px 0 4px;
+    margin: 1em 0 0 0 !important;
+    line-height: 50px;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    letter-spacing: .03em;
+  }
+
+  .ui.menu>.item.bd {
+    height: 50px;
+    margin: 0 7.14%;
+    position: relative;
+    z-index: 10;
+    padding: 10px 0;
+  }
+
+  .ui.menu>.item.bd>.name {
+    letter-spacing: .13em;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 0;
+    font-weight: 700;
+    line-height: 1em;
+    color: #222;
+  }
+
+  .name a {
+    color: #222;
+  }
+
+  .item.bd>.description {
+    display: inline-block;
+    margin-left: .75em;
+    line-height: 50px;
+    margin-top: 6.8px;
+    color: #797979;
+    font-size: 1em;
+  }
+
+  .logo--header {
+    background: rgba(0, 0, 0, 0);
+  }
+
+  .logo {
+    width: 70px;
+    margin-left: 195px;
+    display: block;
+    left: 50%;
+    top: 0;
+    z-index: 20;
+  }

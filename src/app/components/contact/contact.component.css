@@ -1,0 +1,141 @@
+.ui.column.header {
+  padding: 5% 0 1em;
+  width: 66%;
+}
+
+.ui.column.header>h1 {
+  font-size: 3.5em;
+  margin: 0 0 .2em;
+  letter-spacing: .05em;
+  font-weight: 700;
+  line-height: 1em;
+}
+
+.lightgrey {
+  color: #797979;
+}
+
+.leader {
+  font-size: 1.75em;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.1em;
+  letter-spacing: .015em;
+}
+
+.leader>p {
+  margin: 0 0 1em;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.1em;
+  letter-spacing: .015em;
+}
+
+.address p {
+  font-weight: 100;
+}
+
+.contactdetail {
+  margin: 0 0 1.5em 0;
+  font-size: 18px;
+  display: inline-block;
+  zoom: 1;
+  letter-spacing: normal;
+  word-spacing: normal;
+  vertical-align: top;
+  text-rendering: auto;
+}
+
+.contactdetail>h4 {
+  font-size: .88em;
+  font-weight: 700;
+  line-height: 1em;
+  letter-spacing: .02em;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.menu>.item>.icon {
+  background-color: #eee;
+  color: #222;
+}
+
+.ui.linkedin.button:hover {
+  background-color: #0077b5 !important;
+  color: #fff;
+  text-shadow: none;
+}
+
+.ui.button:hover>i.icon, .ui.button:hover>p {
+  color: #fff;
+}
+
+.ui.stack.overflow.button:hover {
+  background-color: #f48024 !important;
+  color: #fff;
+  text-shadow: none;
+}
+
+.ui.github.button:hover {
+  background-color: #4078c0 !important;
+  color: #fff;
+  text-shadow: none;
+}
+
+.ui.codepen.button:hover {
+  background-color: #0ebeff !important;
+  color: #fff;
+  text-shadow: none;
+}
+
+.ui.cv.button:hover {
+  background-color: #3be8b0 !important;
+  color: #fff;
+  text-shadow: none;
+}
+
+.cv>p {
+  margin: -4px -3px;
+  transform: translate(0px, 2px);
+}
+
+.ui.menu.social.icon {
+  position: relative;
+  border: none;
+  box-shadow: none;
+}
+
+.ui.menu.social.icon>.item {
+  display: inline-block;
+  padding: 0em 0.5em .25em 0;
+  border: none;
+  box-shadow: none;
+}
+
+.ui.menu.social.icon>.item:before {
+  background: transparent;
+}
+
+.map {
+    position: relative;
+    padding: 478px 585px 0;
+    background: #eee;
+    margin: 18px 0 50px 0;
+    overflow: hidden;
+}
+
+.map__canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: -20px;
+}
+
+#gmap {
+  height: 500px;
+  width: 1170px;
+  margin-bottom: 1em;
+}

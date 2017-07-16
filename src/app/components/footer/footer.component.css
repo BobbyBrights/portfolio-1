@@ -1,0 +1,84 @@
+footer {
+  border-top: solid 1px #eee;
+}
+
+footer>.borderless.menu {
+  padding: 10px 0;
+  margin: 0 7.14% !important;
+  position: relative;
+  border: none;
+  box-shadow: none;
+}
+
+footer>.ui.menu a.item {
+  padding: 0px 1em 1em 1em;
+  color: #222;
+  text-decoration: none;
+  outline: 0;
+  background-color: transparent;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: 0.54px;
+  line-height: 50px;
+}
+
+footer>.ui.menu a.item:hover {
+  text-decoration: none;
+  background-color: transparent;
+  color: #2ad2b0;
+}
+
+footer>.ui.menu a.item:hover {
+  text-decoration: none;
+  background-color: transparent;
+  color: #2ad2b0;
+}
+
+footer>.ui.menu>.right.menu>.item {
+  padding: .92857143em .2em;
+}
+
+.cv>p {
+  margin: -4px -3px;
+  transform: translate(0px, 2px);
+}
+
+footer>.ui.menu>.right.menu>.item>.icon {
+  background-color: #eee;
+  color: #222;
+}
+
+.ui.linkedin.button:hover {
+  background-color: #0077b5 !important;
+  color: #fff;
+  text-shadow: none;
+}
+
+.ui.button:hover>i.icon, .ui.button:hover>p {
+  color: #fff;
+}
+
+.ui.stack.overflow.button:hover {
+  background-color: #f48024 !important;
+  color: #fff;
+  text-shadow: none;
+}
+
+.ui.github.button:hover {
+  background-color: #4078c0 !important;
+  color: #fff;
+  text-shadow: none;
+}
+
+.ui.codepen.button:hover {
+  background-color: #0ebeff !important;
+  color: #fff;
+  text-shadow: none;
+}
+
+.ui.cv.button:hover {
+  background-color: #3be8b0 !important;
+  color: #fff;
+  text-shadow: none;
+}
