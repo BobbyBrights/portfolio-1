@@ -1,7 +1,7 @@
 <!-- header -->
 <!-- http://sercappelle.be/#start -->
 <!-- http://sumitridhal.github.io/ -->
-<app-header></app-header>
+<app-header *ngIf="aURL!='/home'"></app-header>
 <div class="article">
   <router-outlet></router-outlet>
 </div>

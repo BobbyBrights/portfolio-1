@@ -1,0 +1,52 @@
+.ui.column.header {
+  padding: 5% 0 1em;
+  width: 66%;
+  display: block;
+}
+
+.ui.column.header>h1 {
+  font-size: 3.5em;
+  margin: 0 0 .2em;
+  letter-spacing: .05em;
+  font-weight: 700;
+  line-height: 1em;
+}
+
+.lightgrey {
+  color: #797979;
+}
+
+.leader {
+  font-size: 1.75em;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.1em;
+  letter-spacing: .015em;
+}
+
+.leader>p {
+  margin: 0 0 1em;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.1em;
+  letter-spacing: .015em;
+}
+
+.ui.card, .ui.cards>.card {
+  box-shadow: none;
+}
+
+.ui.card>.image, .ui.cards>.card>.image {
+  background: transparent;
+}
+
+.ui.card>.content>a.header, .ui.cards>.card>.content>a.header {
+  text-align: center;
+  font-weight: 500;
+}
+
+.ui.card>.image:not(.ui)>img, .ui.cards>.card>.image:not(.ui)>img {
+  border: none;
+  height: 174px;
+  background: transparent;
+}

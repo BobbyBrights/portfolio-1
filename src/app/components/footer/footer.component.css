@@ -1,5 +1,9 @@
 footer {
   border-top: solid 1px #eee;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 
 footer>.borderless.menu {
