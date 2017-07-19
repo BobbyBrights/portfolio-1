@@ -1,4 +1,5 @@
 import { Component, ViewEncapsulation, HostListener, OnInit } from '@angular/core';
+// import { trigger, state, style, animate, transition} from '@angular/animations';
 
 @Component({
   selector: 'app-home',
@@ -14,6 +15,11 @@ export class HomeComponent implements OnInit {
   onWindowScroll($event: any): void {
     this.topOffSet = window.pageYOffset;
     //window.scrollTo(0, this.topOffSet+662);
+  }
+
+  goToDiv(id) {
+    let element = document.querySelector("#"+id);
+    element.scrollIntoView(element);
   }
 
   ngOnInit() { }
